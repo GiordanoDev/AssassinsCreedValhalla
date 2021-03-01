@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+.container{
+    width: 234px;
+    height: auto;
+    float: left;
+    border-right: 1px solid #808080;
+}
+
+header div .logotipo{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header div img{
+    margin-right: 20px;
+}
+
+#titleEpic{
+    color: #FFF;
+    font-weight: bold;    
+    text-decoration: none;
+}
+
+nav ul{
+    margin-left: 40px;
+}
+
+nav ul a img{
+    margin-right: 20px;
+}
+
+nav ul li{
+    width:190px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li:hover{
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav ul a{
+    color: #808080;
+    text-decoration: none;
+}
+
+#subMenu{
+    margin-top: 150px;
+}
+
+#assassinsMenu nav{
+    display: flex;
+}
+
+#assassinsMenu nav ul a{
+    margin: 10px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+#assassinsMenu #procurar{
+    padding: 10px;
+    margin-top: 20px;
+    background: #262626;
+    color: #FFF;
+    font-size: 15px;
+}
+
+section div img{
+    margin: 20px 0px 0px 80px;
+}
+
+.content{
+    margin: 20px;
+}
+
+.content img{
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.content p{
+    display: flex;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 550px;
+}
+
+.content button{
+    display: flex;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #808080;
+    border-radius: 5%;
+    background: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.content button:hover{
+    background: #373737;
+    cursor: pointer;
+}
